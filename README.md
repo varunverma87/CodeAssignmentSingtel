@@ -1,3 +1,4 @@
+
 # CodeAssignmentSingtel
 Signtel Code Assignment
 
@@ -7,7 +8,11 @@ Animal should not implement both of the Swim and Fly interfaces.so, Animal shoul
 I have completed upto Fish model and time out.
 
 Explanation for remaining questions:
-Butterfly model implementation is same as of fish.
-while count of each can easily be made by using "instanceof" of each reference with the implementation class defined in project.
-Internationalization can be achieved by using locale and define messages in xml.
-For restful API, converts the project to dynamic web project and expose the implementation classes.
+
+1) Butterfly model implementation is same as of fish.
+
+2) while count of each can easily be made by using "instanceof" of each reference with the implementation class defined in project.
+
+3) Internationalization can be achieved by using locale and define messages in xml.
+
+4) For restful API, converts the project to dynamic web project and expose the implementation classes.
