@@ -1,7 +1,9 @@
 package singtel.code.assignment.solution;
 
+import singtel.code.assignment.Impl.HabitImpl;
 import singtel.code.assignment.Impl.SingImpl;
 import singtel.code.assignment.Impl.SingSwimImpl;
+import singtel.code.assignment.Impl.SizeColorImpl;
 import singtel.code.assignment.parent.Bird;
 import singtel.code.assignment.parent.Fish;
 
@@ -33,9 +35,30 @@ public class Solution {
 		SingImpl parrotwithroosterBehaviour = new SingImpl(parrotwithrooster);
 		System.out.println(parrotwithroosterBehaviour.sing("“Cock-a-doodle-doo”"));
 		
-		Fish fishes = new Fish();
-		System.out.println(fishes.walk("Fishes don’t walk"));
-		System.out.println(fishes.sing("Fishes don’t sing"));
-		System.out.println(fishes.swim("Fishes can swim"));
+		Fish fishes = new Fish("fishes");
+		System.out.println(fishes.walk("don’t walk"));
+		System.out.println(fishes.sing("don’t sing"));
+		System.out.println(fishes.swim("can swim"));
+		
+		Fish shark = new Fish("Shark");
+		SizeColorImpl SharkBehaviour = new SizeColorImpl(shark);
+		System.out.println(shark+" are "+SharkBehaviour.size("large")+" and "+SharkBehaviour.color("grey"));
+		
+		Fish clownFish = new Fish("ClownFish");
+		SizeColorImpl clownFishBehaviour = new SizeColorImpl(clownFish);
+		System.out.println(clownFish+" are "+clownFishBehaviour.size("small")+" and "+clownFishBehaviour.color("orange"));
+		
+		
+		Fish clownFish2 = new Fish("ClownFish");
+		HabitImpl clownFish2Behaviour = new HabitImpl(clownFish2);
+		System.out.println(clownFish+" "+clownFish2Behaviour.habit("make jokes"));
+		
+		Fish shark2 = new Fish("Shark");
+		HabitImpl shark2Behaviour = new HabitImpl(shark2);
+		System.out.println(shark2+" "+shark2Behaviour.habit("eat other fish"));
+		
+		
+		
+		
 	}
 }
