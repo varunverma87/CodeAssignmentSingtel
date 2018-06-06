@@ -11,7 +11,7 @@ Explanation of remaining questions:
 
 1) Butterfly model implementation is same as of fish.
 
-2) while count of each can easily be made by using "instanceof" of each reference with the implementation class defined in project.
+2) Count can easily be made by using "instanceof" operator for each reference against the implementation classes defined in project.
 
 3) Internationalization can be achieved by using locale and define messages in xml.
 
