@@ -12,11 +12,24 @@ public class Solution {
 		System.out.println(duckBehaviour.sing("“Quack, quack”"));
 		System.out.println(duckBehaviour.swim("can swim"));
 		
-		Bird chicken = new Bird("duck");
+		Bird chicken = new Bird("chicken");
 		SingImpl chickenBehaviour = new SingImpl(chicken);
 		System.out.println(chickenBehaviour.sing("“Cluck, cluck”"));
 		
+		Bird rooster = new Bird("rooster");
+		SingImpl roosterBehaviour = new SingImpl(rooster);
+		System.out.println(roosterBehaviour.sing("“Cock-a-doodle-doo”"));
 		
+		Bird parrotwithdogs = new Bird("parrot living with dogs");
+		SingImpl parrotwithdogsBehaviour = new SingImpl(parrotwithdogs);
+		System.out.println(parrotwithdogsBehaviour.sing("“Woof, woof”"));
 		
+		Bird parrotwithcats = new Bird("parrot living with cats");
+		SingImpl parrotwithcatsBehaviour = new SingImpl(parrotwithcats);
+		System.out.println(parrotwithcatsBehaviour.sing("“Meow”"));
+		
+		Bird parrotwithrooster = new Bird("parrot living near the rooster");
+		SingImpl parrotwithroosterBehaviour = new SingImpl(parrotwithrooster);
+		System.out.println(parrotwithroosterBehaviour.sing("“Cock-a-doodle-doo”"));
 	}
 }
