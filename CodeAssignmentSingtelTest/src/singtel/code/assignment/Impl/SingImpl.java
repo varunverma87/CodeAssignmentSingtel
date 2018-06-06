@@ -3,9 +3,9 @@
  */
 package singtel.code.assignment.Impl;
 
-import singtel.code.assignment.Parent.AbstractBehaviour;
 import singtel.code.assignment.interfaces.Animal;
 import singtel.code.assignment.interfaces.Sing;
+import singtel.code.assignment.parent.AbstractBehaviour;
 
 /**
  * @author VARUN VERMA

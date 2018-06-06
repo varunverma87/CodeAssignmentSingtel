@@ -2,7 +2,8 @@ package singtel.code.assignment.solution;
 
 import singtel.code.assignment.Impl.SingImpl;
 import singtel.code.assignment.Impl.SingSwimImpl;
-import singtel.code.assignment.Parent.Bird;
+import singtel.code.assignment.parent.Bird;
+import singtel.code.assignment.parent.Fish;
 
 public class Solution {
 	public static void main(String[] args) {
@@ -31,5 +32,10 @@ public class Solution {
 		Bird parrotwithrooster = new Bird("parrot living near the rooster");
 		SingImpl parrotwithroosterBehaviour = new SingImpl(parrotwithrooster);
 		System.out.println(parrotwithroosterBehaviour.sing("“Cock-a-doodle-doo”"));
+		
+		Fish fishes = new Fish();
+		System.out.println(fishes.walk("Fishes don’t walk"));
+		System.out.println(fishes.sing("Fishes don’t sing"));
+		System.out.println(fishes.swim("Fishes can swim"));
 	}
 }

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package singtel.code.assignment.Parent;
+package singtel.code.assignment.parent;
 
 import singtel.code.assignment.interfaces.Animal;
 

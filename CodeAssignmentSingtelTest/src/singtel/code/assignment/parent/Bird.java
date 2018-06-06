@@ -1,12 +1,13 @@
-package singtel.code.assignment.Parent;
+package singtel.code.assignment.parent;
 
 import singtel.code.assignment.interfaces.Animal;
 
 public class Bird implements Animal{
 
 	@Override
-	public void walk() {
+	public String walk(String message) {
 		System.out.println("I am walking");
+		return message;
 	}
 	
 	String name;

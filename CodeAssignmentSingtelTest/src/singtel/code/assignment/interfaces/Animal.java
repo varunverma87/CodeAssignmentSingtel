@@ -9,5 +9,5 @@ package singtel.code.assignment.interfaces;
  */
 public interface Animal {
 
-	void walk();
+	String walk(String message);
 }
